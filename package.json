@@ -1,0 +1,23 @@
+{
+  "name": "extract-by-module-config",
+  "version": "1.0.0",
+  "description": "a code for creating CONFIG-FILE for osmium extract to get extracts cut by what3numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hfu/extract-by-module-config.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/hfu/extract-by-module-config/issues"
+  },
+  "homepage": "https://github.com/hfu/extract-by-module-config#readme",
+  "dependencies": {
+    "@mapbox/tilebelt": "^1.0.1"
+  }
+}
