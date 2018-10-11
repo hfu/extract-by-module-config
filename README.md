@@ -17,4 +17,7 @@ If you want to create z=6 tile configuration:
 $ node index.js 6 > config.json
 ```
 
-You can use config.json with osmium extract. 
+You can use config.json with osmium extract like the following:
+```console
+$ osmium extract --config=config.json some.osm.pbf
+```

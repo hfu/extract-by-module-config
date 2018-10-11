@@ -2,6 +2,7 @@ const tilebelt = require('@mapbox/tilebelt')
 
 if (process.argv.length !== 3) {
   console.log(`usage: node index.js {Z} > config.json`)
+  process.exit()
 }
 
 const z = parseInt(process.argv[2])
