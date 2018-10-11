@@ -5,7 +5,10 @@ if (process.argv.length !== 3) {
 }
 
 const z = parseInt(process.argv[2])
-let config = { extracts: [] }
+let config = { 
+  target: 'dst',
+  extracts: []
+}
 
 for (let x = 0; x < 2 ** z; x++) {
   for (let y  = 0; y < 2 ** z; y++) {
